@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Sign In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="media.css" media="all and (max-width:900px)">
+ </head>
+ <body>
+
+
+  <form action="/search/" target="_blank" class="form-search">
+    <input type="hidden" name="searchid" value="808327">
+    <input type="search" name="text" required placeholder="Search">
+    <input type="submit" value="&#128269;">
+    </form>
+
+  <hr align="center" width="80%" size="2" color="#dddddd" />
+  <h1><a href="index.html">Art Gallery</a></h1>
+  <h5>"A picture is a poem without words." Horace.</h5>
+
+
+
+  <center>
+  <div id="menuHrefs">
+    <a href="Exhibitions.html">Exhibitions</a>
+    <a href="news.html">News</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="more.html">Map</a>
+    <a href="signIn.html">Sign in</a>
+  </div>
+  </center>
+  	<div class="cotn_principal">
+  <div class="cont_centrar">
+    <div class="cont_login">
+      <div class="cont_info_log_sign_up">
+        <div class="col_md_login">
+          <div class="cont_ba_opcitiy">
+            <h4>Log in</h4>
+            <button class="btn_login" onclick="cambiar_login()">Log in</button>
+          </div>
+        </div>
+        <div class="col_md_sign_up">
+          <div class="cont_ba_opcitiy">
+            <h4>Sign in</h4>
+            <button class="btn_sign_up" onclick="cambiar_sign_up()">Sign in</button>
+          </div>
+        </div>
+      </div>
+      <div class="cont_back_info">
+        <div class="cont_img_back_grey">
+          <img src="img/bg.jpg" alt="" />
+        </div>
+      </div>
+      <div class="cont_forms">
+        <div class="cont_img_back_">
+          <img src="img/bg.jpg" alt="" />
+        </div>
+        <div class="cont_form_login">
+          <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+          <h2>Log in</h2>
+          <input type="text" placeholder="E-mail" />
+          <input type="password" placeholder="Password" />
+          <button class="btn_login" onclick="cambiar_login()">Log in</button>
+        </div>
+        <div class="cont_form_sign_up">
+          <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+          <h2>Registration</h2>
+          <input type="text" placeholder="E-mail" />
+          <input type="text" placeholder="Login" />
+          <input type="password" placeholder="Password" />
+          <button class="btn_sign_up" onclick="cambiar_sign_up()">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+ </body>
+
+ <footer>
+  <p>© 1480 Leonardo da Vinci</p>
+</footer>
+</html>

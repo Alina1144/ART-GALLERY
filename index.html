@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS tutorial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css" media="all and (max-width:900px)">
+</head>
+
+<body>
+	<form action="/search/" target="_blank" class="form-search">
+  	<input type="hidden" name="searchid" value="808327">
+  	<input type="search" name="text" required placeholder="Search">
+  	<input type="submit" value="&#128269;">
+    </form>
+
+	<hr align="center" width="80%" size="2" color="#dddddd" />
+	<h1><a href="index.html">Art Gallery</a></h1>
+	<h5>"A picture is a poem without words." Horace.</h5>
+
+
+	<div class="clock">
+		<div class="clock-ui">
+	    <div class="hand hour"></div>
+	    <div class="hand min"></div>
+	    <div class="hand sec"></div>
+  		</div>
+	</div> 
+	<div class="time"></div>
+
+
+	<center>
+	<div id="menuHrefs">
+		<a href="Exhibitions.html">Exhibitions</a>
+		<a href="news.html">News</a>
+		<a href="about.html">About</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="more.html">Map</a>
+		<a href="signIn.html">Sign in</a>
+	</div>
+	</center>
+
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/10.jpeg" style="width: 100%" alt="">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/9.jpg" style="width: 100%" alt="">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/7.jpg" style="width: 100%" alt="">
+			<div class="text"></div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/5.jpg" style="width: 100%" alt="">
+			<div class="text"></div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="img/6.jpg" style="width: 100%" alt="">
+			<div class="text"></div>
+		</div>
+
+
+		<a  class="prev" onclick="plusSlides(-1)">&#10094</a>
+		<a  class="next" onclick="plusSlides(1)">&#10095</a>
+	</div>
+
+	<br>
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<script src="script.js"></script>
+
+	<h3>Upcoming Exhibitions</h3>
+
+		<div class="news-list">
+			<!-- one-news -->
+			<div class="one-news">
+				<img src="img/exib1.jpg" alt="Кошка">
+				<h2>May, 15 | 16:00</h2>
+				<p>Curabitur suscipit orci id mollis porttitor. Mauris aliquam egestas elit vel porta. Curabitur sit
+					amet ligula volutpat ipsum sollicitudin ultrices sed vel metus. Quisque aliquet elit sit amet
+					ipsum
+					fringilla fringilla. Donec sit amet pharetra erat, aliquam euismod dolor.</p>
+			</div><!--/one-news-->
+
+			<!-- one-news -->
+			<div class="one-news one-news-second">
+				<img src="img/exib2.png" alt="Кошка">
+				<h2>June, 2 | 20:00</h2>
+				<p>Curabitur suscipit orci id mollis porttitor. Mauris aliquam egestas elit vel porta. Curabitur sit
+					amet ligula volutpat ipsum sollicitudin ultrices sed vel metus. Quisque aliquet elit sit amet
+					ipsum
+					fringilla fringilla. Donec sit amet pharetra erat, aliquam euismod dolor. </p>
+			</div><!--/one-news-->
+		
+
+		</div><!--/news-list-->
+</body>
+
+<footer>
+	<p>© 1480 Leonardo da Vinci</p>
+</footer>
+</html>
